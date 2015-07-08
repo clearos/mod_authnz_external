@@ -6,7 +6,7 @@ License: ASL 1.0
 Group: System Environment/Libraries
 URL: http://code.google.com/p/mod-auth-external/
 Source: http://mod-auth-external.googlecode.com/files/%{name}-%{version}.tar.gz
-Requires: pwauth, httpd-mmn = %(cat %{_includedir}/httpd/.mmn || echo missing)
+Requires: pwauth, httpd-mmn = %(cat %{_includedir}/httpd/.mmn 2> /dev/null || echo missing)
 BuildRequires: httpd-devel
 
 %description
