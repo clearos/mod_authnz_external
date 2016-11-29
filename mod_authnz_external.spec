@@ -1,7 +1,7 @@
 Summary: An Apache module used for authentication
 Name: mod_authnz_external
 Version: 3.3.2
-Release: 3%{?dist}
+Release: 3%{?dist}.1
 License: ASL 1.0
 Group: System Environment/Libraries
 URL: http://code.google.com/p/mod-auth-external/
